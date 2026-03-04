@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        img {
+            width: 250px;
+            margin-top: 20px;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Sample Website</h1>
+</header>
+
+<div class="container">
+    <h2>Welcome!</h2>
+    <p>This is a simple HTML example page.</p>
+
+    <a href="https://www.google.com" target="_blank">Visit Google</a>
+
+    <br><br>
+
+    <button onclick="showMessage()">Click Me</button>
+
+    <br>
+
+    <img src="https://via.placeholder.com/250" alt="Sample Image">
+</div>
+
+<footer>
+    <p>© 2026 My Website</p>
+</footer>
+
+<script>
+function showMessage() {
+    alert("Hello! This is a JavaScript alert.");
+}
+</script>
+
+</body>
+</html>
